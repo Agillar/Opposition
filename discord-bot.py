@@ -1,9 +1,11 @@
 import asyncio
+import os
+
 import discord
 from discord import Option
 import sqlite3
 from discord.ext import tasks, commands
-from config import setting
+# from config import setting
 import time
 import datetime
 
@@ -657,4 +659,4 @@ async def say(ctx, text: Option(str, description="text what say bot", required=T
 
 # endregion
 
-bot.run(token)
+bot.run(os.getenv("token"))
