@@ -3,7 +3,7 @@ import discord
 from discord import Option
 import sqlite3
 from discord.ext import tasks, commands
-from config import setting
+# from config import setting
 import time
 import datetime
 
