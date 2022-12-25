@@ -12,7 +12,7 @@ import datetime
 # bot
 intents = discord.Intents.all()
 discord.member = True
-bot = commands.Bot(command_prefix=setting['prefix'], intents=intents, owner_id=642709511215513613)
+bot = commands.Bot(intents=intents, owner_id=642709511215513613)
 # db
 connection = sqlite3.connect("server")
 cursor = connection.cursor()
