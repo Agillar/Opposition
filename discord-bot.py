@@ -657,4 +657,4 @@ async def say(ctx, text: Option(str, description="text what say bot", required=T
 
 # endregion
 
-bot.run(setting['token'])
+bot.run(token)
